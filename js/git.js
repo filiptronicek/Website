@@ -231,7 +231,7 @@ $.get('https://api.github.com/users/' + username + '/repos', {}, function(data) 
 					description +
 					'</div><div class="lang"><span class="repo-language-color" style="background-color: ' +
 					colors[element.language] +
-					'"></span> ' +
+					'"></span> &nbsp;' +
 					language +
 					'</div></div>'
 			);
